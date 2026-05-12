@@ -8,7 +8,7 @@ Built with Python, Tkinter, VADER sentiment analysis, and the NewsAPI.
 
 ## Preview
 
-> preview.png
+preview.png
 
 ---
 
