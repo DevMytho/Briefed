@@ -1,6 +1,6 @@
 # Briefed 📰
 
-A live news sentiment dashboard built in Python. Briefed fetches the latest headlines and tells you how the world is feeling — positive, negative, or neutral — in real time.
+A live news sentiment dashboard built in Python. Briefed fetches the latest headlines and tells you how the world is feeling, positive, negative, or neutral, in real time.
 
 Built with Python, Tkinter, VADER sentiment analysis, and the NewsAPI.
 
@@ -14,10 +14,10 @@ Built with Python, Tkinter, VADER sentiment analysis, and the NewsAPI.
 
 ## Features
 
-- 🟢 🔴 ⚪ Color-coded headlines by sentiment
+- 🟢 🔴 ⚪ Color coded headlines by sentiment
 - 📊 Overall sentiment index shown as a live gauge
-- 🗂️ Filter by category — General, Technology, Business, Science, Health, Sports
-- 🔄 Auto-refreshes every 5 minutes
+- 🗂️ Filter by category, General, Technology, Business, Science, Health, Sports
+- 🔄 Auto refreshes every 5 minutes
 - 🇮🇳 Focused on Indian news by default
 - 🌙 Clean dark UI built with Tkinter
 
@@ -61,7 +61,6 @@ Create a `.env` file in the project root:
 NEWSAPI_KEY=your_key_here
 ```
 
-> ⚠️ Never push your `.env` file. It's already in `.gitignore`.
 
 ### 5. Run the app
 
@@ -79,11 +78,10 @@ briefed/
 ├── main.py          # Entry point
 ├── gui.py           # Tkinter UI
 ├── news.py          # Fetches headlines from NewsAPI
-├── sentiment.py     # VADER sentiment analysis
-├── config.py        # Settings and constants
+├── sentiment.py     # VADER sentiment analysi
+├── config.py        
 │
-├── .env             # Your API key (never pushed)
-├── .env.example     # Template for contributors
+├── .env             # Your API key
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -106,7 +104,7 @@ All settings live in `config.py`:
 
 ## How Sentiment Works
 
-Briefed uses [VADER](https://github.com/cjhutto/vaderSentiment) (Valence Aware Dictionary and sEntiment Reasoner) — a sentiment analysis tool specifically built for short, punchy text like news headlines and social media.
+Briefed uses [VADER](https://github.com/cjhutto/vaderSentiment) (Valence Aware Dictionary and sEntiment Reasoner), a sentiment analysis tool specifically built for short, punchy text like news headlines and social media.
 
 Each headline gets a compound score from **-1.0** (most negative) to **+1.0** (most positive):
 
