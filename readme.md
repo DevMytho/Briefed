@@ -8,7 +8,7 @@ Built with Python, Tkinter, VADER sentiment analysis, and the NewsAPI.
 
 ## Preview
 
-preview.png
+![Briefed GUI](preview.png)
 
 ---
 
@@ -117,12 +117,6 @@ anything between  →  ⚪ Neutral
 ```
 
 The overall sentiment index is the average compound score across all headlines, normalised to a 0–100% gauge.
-
----
-
-## Documented On
-
-This project was built and documented on YouTube — [Meow Codes](https://www.youtube.com/@MeowCode1808/)
 
 ---
 
